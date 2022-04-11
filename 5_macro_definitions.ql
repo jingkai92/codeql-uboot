@@ -1,5 +1,5 @@
 import cpp
 
 from Macro m
-where m.getName() in ["ntohl", "ntohll", "ntohs'"]
+where m.getName() in ["ntohl", "ntohll", "ntohs"]
 select m, "a function starts with ntoh"
